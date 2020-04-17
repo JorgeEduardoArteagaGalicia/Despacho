@@ -1,0 +1,73 @@
+html body{
+    margin: 0;
+    
+}
+h1{
+    
+    font-family: 'Cinzel', serif;
+}
+
+video{
+
+    width: 100%; 
+  
+}
+
+header{
+    height: 70px;
+    background-color: rgb(58, 202, 58);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.container{
+    padding-left: 30px;
+    align-content: center;
+}
+.container img{
+    height: 80px;
+}
+header nav ol{
+    padding-right: 40px;
+    align-content: center;
+    list-style: none;
+    display: flex;
+}
+header nav ol li a{
+    color: aliceblue;
+    padding: 0 20px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.seccion1{
+    padding: 30px 50px;
+}
+.seccion1 p{
+    padding: 20px 100px;
+    
+    text-align: justify;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+
+
+
+/*------------RESPONSIVA-----------------------*/
+@media(max-width:900px){
+    
+    .container img{
+        height: 50px;
+    }
+    header nav ol li a{
+ 
+        padding: 0 15px;
+
+        font-size: 12px;
+
+    }
+    h1{
+    font-size: 20px;
+    }
+}
